@@ -1,0 +1,2 @@
+SELECT doctors.name FROM doctors INNER JOIN hospitals ON doctors.hospital_id = hospitals.hospital_id WHERE
+hospitals.name = Garcia-Hunter Hospital; doctors based at hospital.txt

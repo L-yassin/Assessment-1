@@ -1,0 +1,2 @@
+SELECT medication FROM prescriptions INNER JOIN doctors ON doctors.person_id=prescriptions.doctor_id WHERE
+doctors.name = Dr. Mark Craig;
