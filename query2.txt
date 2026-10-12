@@ -1,1 +1,5 @@
-SELECT medication FROM prescriptions INNER JOIN patients ON patients.person_id=prescriptions.patient_id WHERE patients.name = Cassandra Prince order by prescription_date;
+# This query will print a list of all prescriptions for a particular patient, ordered by the prescription date
+
+SELECT medication FROM prescriptions 
+INNER JOIN patients ON patients.person_id=prescriptions.patient_id WHERE patients.name = 'Cassandra Prince' order by prescription_date;
+# Replace Cassandra Prince with any patient name
