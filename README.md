@@ -25,5 +25,8 @@ prescriptions.csv: contains information about prescriptions, including prescript
 The hospital database was created from the source csv files. They contained the same fields as the csv files. 
 
 # SQL Queries:
-SQL queries were created for the below, and added to the repository as .txt files: 
-1- 
+Three SQL queries were created for the below, and added to the repository as .txt files: 
+1- query1.txt : This query prints a list of all doctors based at a particular hospital.
+2- query2.txt : This query prints a list of all prescriptions for a particular patient, ordered by prescription date.
+3- query3.txt : This query prints a list of all prescriptions that a particular doctor has prescribed.
+
