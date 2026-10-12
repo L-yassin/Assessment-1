@@ -1,4 +1,4 @@
-This query prints a list of all doctors based at a particular hospital
+#This query prints a list of all doctors based at a particular hospital
 
 SELECT doctors.name FROM doctors 
 INNER JOIN hospitals ON doctors.hospital_id = hospitals.hospital_id WHERE hospitals.name = 'Garcia-Hunter Hospital';
