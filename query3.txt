@@ -1,2 +1,6 @@
+# This query will print a list of all prescriptions that a particular doctor has prescribed.
+
 SELECT medication FROM prescriptions INNER JOIN doctors ON doctors.person_id=prescriptions.doctor_id WHERE
-doctors.name = Dr. Mark Craig;
+doctors.name = 'Dr. Mark Craig';
+
+# Replace Dr. Mark Craig with any doctor's name.
