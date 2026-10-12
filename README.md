@@ -8,9 +8,11 @@ It contains:
 
 # Planning documents:
 An Entity Relationship Diagram (ERD) was created with the tables/entities of the database, the relationships between them, and how they are connected.
-Furthermore, a flow chart was created with a summary of what was done for the assessment.
+Furthermore, a flow chart was created to explain the steps for creating the database.
 
 # Hospitals Database:
 The hospital database was created from the source csv files. They contained the same fields as the csv files. 
 
 # SQL Queries:
+SQL queries were created for the below, and added to the repository as .txt files: 
+1- 
